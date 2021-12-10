@@ -42,7 +42,6 @@ jobs:
     - shell: bash
       run: | 
         java -jar greetings-actions.jar ${{ github.event.inputs.myValues }} 
-          count-args:
   
   
   count-args:
